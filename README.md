@@ -1,4 +1,8 @@
 # Docker DynamoDB
+This build is mix of -
+https://hub.docker.com/r/peopleperhour/dynamodb/
+https://hub.docker.com/r/ryanratcliff/dynamodb/
+
 Supported tags
 * **latest** using version dynamodb_local_2016-05-17.tar.gz
 * **2015-07-16_1.0** using version dynamodb_local_2015-07-16_1.0.tar.gz
