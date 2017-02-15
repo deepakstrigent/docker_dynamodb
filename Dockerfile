@@ -13,4 +13,4 @@ RUN wget -q https://dynamodb-local.s3-accelerate.amazonaws.com/dynamodb_local_la
     tar zxvf dynamodb_local_latest.tar.gz && rm dynamodb_local_latest.tar.gz
 
 
-ENTRYPOINT ["java", "-Djava.library.path=.", "-jar", "DynamoDBLocal.jar",  "--sharedDb", "-port", "8000", "-dbPath", "/var/dynamodb_data"]
+ENTRYPOINT ["java", "-Djava.library.path=.", "-jar", "DynamoDBLocal.jar", "-sharedDb", "-port", "9000", "-dbPath", "/var/dynamodb_data"]
